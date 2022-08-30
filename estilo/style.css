@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cordel';
+    src: url('fontes/PassionOne-Bold.ttf');  
+}
+@font-face {
+    font-family: 'texto';
+    src: url('fontes/Sriracha-Regular.ttf');
+}
+* {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-family: 'cordel';
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+header > h1 {
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+main {
+    font-family: 'texto';
+    font-size: 18px;
+}
+section { 
+    padding: 70px 30px;
+    display: block;
+}
+#um {
+
+}
+#dois {
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#dois > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.555);
+}
+#tres {
+
+}
+#quatro {
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#quatro > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.568);
+}
+#cinco {
+
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}

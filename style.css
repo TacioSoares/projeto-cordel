@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cordel';
+    src: url('fontes/PassionOne-Regular.ttf');
+}  
+@font-face {
+    font-family: 'texto';
+    src: url('fontes/Sriracha-Regular.ttf');
+}
+* {
+    margin: 0px;
+}
+body {
+    min-height: 100vh;
+}
+header {
+    background-color: black;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-family: 'cordel';
+    font-size: 5vw;
+}
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+header > h1 {
+    padding: 50px 0px 0px 0px;
+    font-variant: small-caps;
+    text-align: center;
+}
+main {
+    font-family: 'texto';
+    font-size: 18px;
+}
+section { 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    display: block;
+    font-size: 3.5vw;
+}
+#um {
+
+}
+#dois {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.685);
+}
+#dois > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.555);
+}
+#tres {
+
+}
+#quatro {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.685);
+}
+#quatro > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.568);
+}
+#cinco {
+
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
